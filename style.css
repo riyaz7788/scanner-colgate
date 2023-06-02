@@ -1,0 +1,510 @@
+@font-face {
+  font-family: Colgate_ReadyTH-Bold_1;
+  src: url("/assets/ColgateFonts/Colgate_ReadyTH-Bold_1.ttf");
+}
+
+button {
+  font-family: Colgate_ReadyTH-Bold_1;
+}
+
+.smileTestBackgroundcolor {
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+}
+
+.colgate {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+}
+.congratulationbackground{
+  background-color: black;
+  /* height: 100vh; */
+  background-size: cover;
+}
+.formcover {
+  background-color: black;
+  height: 100vh;
+}
+
+.banner {
+  width: 100%;
+}
+
+.colgates {
+  /* width: 100%;
+    height: 76vh;
+    background-image: url(/assets/BGimage.png);
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat; */
+  width: 100%;
+  height: 81vh;
+  background-image: url(/assets/BGimage.png);
+  /* background-size: 150%; */
+  background-size: 71vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -61px;
+}
+
+.experience {
+  position: absolute;
+  margin: 2%;
+  bottom: 32px;
+  background: #028080;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+  width: 304px;
+  height: 71px;
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.startExp {
+  position: relative;
+  /* top: 60px; */
+
+}
+
+.startExperience {
+  background: #028080;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+  width: 304px;
+  height: 55px;
+  font-family: myFirstFont;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+/* .modal-body{
+    position: ;
+  } */
+.colbanner {
+  height: 56vh;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+}
+
+.backgroundpopup {
+  background: #000000;
+  height: 86vh;
+  border: 2px solid #FFFFFF;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+}
+
+.modal-content {
+  width: 86% !important;
+  margin: 2px auto !important;
+}
+
+.popupcamera {
+  /* position: absolute;
+    right: 27%;
+    top: 5%; */
+  /* height: 84%; */
+  width: 89%;
+  /* height: 90%; */
+  /* width: 92%; */
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  /* position: absolute;
+    left: 22px; */
+}
+
+.pack {
+  position: absolute;
+  bottom: 33%;
+  left: 18%;
+
+}
+
+.next {
+  background: #028080;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+  width: 139px;
+  height: 82px;
+  position: absolute;
+  bottom: 0;
+  right: 28%;
+  top: 80%;
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.btn-close {
+  filter: invert(1);
+  --bs-btn-close-opacity: opacity(1);
+
+}
+
+.form-control::placeholder {
+  /* Chrome,  Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+.experienceSubmit {
+  position: absolute;
+  /* bottom: 22px; */
+  /* z-index: 2; */
+  width: 75%;
+  background: #028080;
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 194px;
+  height: 82px;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+  right: 27%;
+}
+
+.expsubmit {
+  position: absolute;
+  bottom: -100px;
+  z-index: 2;
+  width: 49%;
+  background: #028080;
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: 82px;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+  right: 25%;
+}
+
+.experienceTested {
+  position: absolute;
+  bottom: -100px;
+  z-index: 2;
+  width: 75%;
+  background: #028080;
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  height: 82px;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+  right: 13%;
+}
+
+.experienceTest {
+  position: absolute;
+  bottom: 22px;
+  z-index: 2;
+  width: 75%;
+  background: #028080;
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 194px;
+  height: 82px;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+  right: 27%;
+}
+
+.outerImage {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/public/images/smileadd.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.popuphand {
+  position: absolute;
+  right: 12%;
+}
+
+.valid {
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.congratulationTag {
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  /* font-weight: 700; */
+  font-size: 26px;
+
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.wonExclusive {
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.redeemPurchase {
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.CongratulationouterImage {
+  width: 100%;
+  /* height: 81vh; */
+  background-image: url(/assets/congbackground.png);
+  /* background-size: 150%; */
+  background-size: 71vh;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.formouter {
+
+
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/formbackground.png);
+  /* background-size: 150%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  /* margin-top: -61px;
+    width: 100%;
+    height: 81vh;
+    background-image: url(/assets/formbackground.png);
+    /* background-size: 150%; */
+  /* background-size: 71vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -61px; */
+
+
+
+
+}
+
+/* .carousel-inner{
+    width: 38%;
+      overflow: hidden;
+      bottom: -246px;
+      right: -127px;
+  } */
+.experienceForm {
+  background: #028080;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+  width: 139px;
+  height: 82px;
+  position: absolute;
+  bottom: 0;
+  right: 31%;
+  top: 80%;
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.userdetailed {
+  position: absolute;
+  top: 25%;
+  right: 6%;
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  /* identical to box height */
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.userinfo {
+  position: absolute;
+  top: 35%;
+}
+
+.banners {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+  width: 100%;
+}
+
+.ometer {
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 150%;
+  /* or 34px */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  position: relative;
+  bottom: -241px;
+}
+
+.smiley {
+  position: absolute;
+  z-index: 2;
+  width: 75%;
+  top: 150px;
+  left: 39px;
+}
+
+.enterDetails {
+  font-family: Colgate_ReadyTH-Bold_1;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  /* identical to box height */
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.inputFocus {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  box-sizing: border-box;
+
+
+width: 319px;
+height: 45px;
+
+}
+.submitForm{
+    position: absolute;
+    bottom: 23px;
+    background: #028080;
+    border-radius: 42.5px 0px 42.5px 42.5px;
+    width: 159px;
+    height: 82px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    font-family: Colgate_ReadyTH-Bold_1;
+}
+.inputFormsBorderradius {
+  border: 1px solid #CDCDCD;
+  border-radius: 50px;
+  width: 319px;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.form-check-label {
+  font-size: 10px;
+  color: white;
+}
+
+@media screen and (min-width: 415px) {
+  #mobilebiewonly {
+    display: none;
+  }
+}
+
+@media (min-width:414px) {
+
+  .experience {
+    right: 15%;
+  }
+}
+
+
+@media (min-width:412px) {
+  .experience {
+    right: 13%;
+  }
+}
+
+
+
+
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
